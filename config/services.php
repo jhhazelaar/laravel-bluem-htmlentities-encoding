@@ -31,4 +31,12 @@ return [
         'region' => env('AWS_DEFAULT_REGION', 'us-east-1'),
     ],
 
+    'bluem' => [
+        'environment' => env('BLUEM_ENVIRONMENT'),
+        'accessToken' => env('BLUEM_TOKEN'),
+        'senderID' => env('BLUEM_SENDER_ID'),
+        'merchantReturnURLBase' => env('BLUEM_RETURN_URL', false),
+        'brandID' => env('BLUEM_BRAND_ID'),
+    ],
+
 ];
